@@ -10,8 +10,8 @@ text-align: center;
 /*Cuerpo*/
 body {
 font-family: Arial, sans-serif;
-background-color: #f4f4f4;
-color: #333333;
+background-color: #a8a8a8;
+color: #0b0b0b;
 width: auto;
 max-width: 175%;
 margin: 1px;
@@ -27,7 +27,7 @@ padding: 15px;
 }
 /* Títulos estilo*/
 h1 {
-background-color: green;
+background-color: rgb(88, 121, 88);
 color: white;
 text-align: center;
     }
