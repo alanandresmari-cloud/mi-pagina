@@ -1,0 +1,103 @@
+/*Cabecera*/
+header {
+background-color: #302f7d;
+color: white;
+width: auto;
+height:auto;
+padding: auto;
+text-align: center;
+}
+/*Cuerpo*/
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+color: #333333;
+width: auto;
+max-width: 175%;
+margin: 1px;
+border-radius: 32px;
+}
+/* Pie de pagina  */
+footer {
+background-color: #222222;
+color: white;
+text-align: center;
+width: auto;
+padding: 15px;
+}
+/* Títulos estilo*/
+h1 {
+background-color: green;
+color: white;
+text-align: center;
+    }
+/* Subtitulos estilo*/
+h2 {
+background-color: green;
+color: white;
+text-align: center;
+} 
+p {
+line-height: 1.6;
+text-align: center;
+width: auto;
+}
+/* Enlaces estilo */
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 10px;
+}
+nav a:hover {
+text-decoration: underline;
+text-align: center;
+}
+main {
+max-width: 1200px;
+margin: 30px auto;
+padding: 0 20px;
+}
+.img {
+width: 25%;
+margin-left: 250px;
+}
+/*aplicando grid*/
+.contenedor-tarjetas {
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 20px;
+}
+/* Estilos para dispositivos móviles */
+nav {
+background-color: #222222;
+padding: 12px;
+text-align: left;
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 10px;
+}
+
+@media (min-width: 768px) {
+.contenedor-tarjetas {
+grid-template-columns: repeat(3, 1fr);
+width: auto;
+}
+nav {
+background-color: #222222;
+padding: 12px;
+text-align: center;
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 10px;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+}
+
+   
+
+
